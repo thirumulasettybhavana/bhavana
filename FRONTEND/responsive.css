@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.parent{
+    background-color: 
+    height: 500px;
+    grid-template-columns: 1fr 1.5fr, repeat(2,1fr);
+    grid-template-rows: ;
+}

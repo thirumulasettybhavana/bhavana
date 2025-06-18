@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item-1{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            animation-name: thops;
+            animation-duration: 0.5s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            margin: 5px;
+            animation-play-state: running;
+        }
+        @keyframes thops{
+            from{
+                background-color: aqua;
+            }
+            to{
+                background-color: brown;
+                /* transform:rotate(360deg) translate(200px)
+                scale(0.5); */
+                transform: scale(0.5) rotate(360deg);
+                border-radius: 50%;
+            }
+        }
+        body{
+            display: flex;
+        }
+        .item-1:hover{
+            animation-play-state: paused;
+
+        }
+        .item-2{
+            width: 100px;
+            height: 100px;
+            background-color:blueviolet;
+            animation-name: thops;
+            animation-duration: 0.4s;
+            an
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="item-1"></div>
+    <div class="item-1"></div>
+    <div class="item-1"></div>
+
+</body>
+</html>

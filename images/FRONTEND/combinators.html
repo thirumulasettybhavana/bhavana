@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>css combinator</title>
+    <style>
+      /* descendent combinator*/
+      .parent h2{
+        color:bisque;
+      }
+       /* child combinator */ 
+       .child>h1, . child> h2{
+        color:blue;
+       }
+
+      /* adjacent combinator*/
+      .parents+h1{
+        background-color:antiquewhite;
+      }
+    /* general combinator */ 
+    . parent~h1{
+        color:coral;
+    </style>
+</head>
+<body>
+     <h1> welcome to combinators </h1>
+
+
+     <div class="parents">
+        <h1> child -1</h1>
+        <h1>child-2</h1>
+        <h1>child-3</h1>
+        <h1>child-4</h1>
+        
+        <h1>grandchild-1</h1>
+        <h1> grand child-2</h1>
+        <h2>grandchild-2</h2>
+        </div>
+</body>
+</html>

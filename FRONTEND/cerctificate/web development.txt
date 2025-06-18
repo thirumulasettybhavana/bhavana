@@ -1,0 +1,21 @@
+Major categories of web development:-
+             1.frontened development
+             2.backened development
+            3.full stack development
+Core web development tools:-
+          .code editors
+          .version editors
+          .broswers &Devtools
+ Typical web development process:-
+          1. Requirements gathering
+          2. Designing wireframe/UI
+          3.frontened Development
+         4.Backened development
+         5. Database integration
+         6.testing and Debugging
+Type of web applications:-
+        *Static website
+         *Dynamic wedsite
+        *E-Commerce site
+        *portfolio wedsite
+     
